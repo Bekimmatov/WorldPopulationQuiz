@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@keyframes flashYellow {
+  0%, 100% { fill: #eab308; } /* yellow-500 */
+  50% { fill: #3f3f46; } /* zinc-700 */
+}
+
+.flashing-yellow {
+  animation: flashYellow 1s ease-in-out infinite;
+}
